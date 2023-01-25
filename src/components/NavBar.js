@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './style.module.css'
+//import "./styles/main.scss"
 import { Link } from "react-router-dom";
 import {Nav,NavLink,Bars,NavMenu,NavBtn,NavBtnLink} from "./NavbarElements"
 function NavBar() {
@@ -10,12 +10,12 @@ function NavBar() {
             <div className='container-fluid'>
                <Bars/>
                <NavMenu>
-                <NavLink to='/about' activeStyle>
-                    About
-                </NavLink>
+                <NavBtnLink  to='/SignUp' activeStyle>
+                    Sign Up
+                </NavBtnLink><br/><br/>
                 
-                <NavLink to='/faq' activeStyle>
-                    FAQ
+                <NavLink to='/About' activeStyle>
+                    About us
                 </NavLink>
                 <NavLink to='/team' activeStyle>
                     Teams
@@ -23,9 +23,9 @@ function NavBar() {
                 <NavLink to='/blogs' activeStyle>
                     Blogs
                 </NavLink>
-                <NavLink to='/sign-up' activeStyle>
-                    Sign Up
-                </NavLink>
+                <NavLink to='/Home' activeStyle>
+                    Home
+                </NavLink><br/><br/>
                 {/* Second Nav */}
                 {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
                 </NavMenu>
