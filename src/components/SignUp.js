@@ -1,4 +1,5 @@
 import React,{useState,setState} from 'react'
+import  './styles/signup.css'
 
 
 function SignUp() {

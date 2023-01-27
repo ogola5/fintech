@@ -1,0 +1,35 @@
+@media only  screen and(max-width:600) {
+    body{
+        background-color: lightblue;
+    }
+    
+}
+h2{
+    text-align: center;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    text-justify: inter-ideograph;
+    text-decoration-color: blueviolet;
+    text-shadow: 2px 2px 6px black;
+}
+
+p{
+    color: red;
+    font-family: arial;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px red;
+    line-height: 1.6;
+}
+.reg-form{
+    margin: 50px;
+    margin-left: 50px;
+    background-image: "url(/images/im1.jpeg)";
+    background: scroll;
+    background-color: azure;
+    width: 100%;
+    text-overflow: ellipsis;
+    box-shadow: 1rem 1rem 1rem;
+    text-align: center;
+    padding: 15px;
+}
